@@ -2,9 +2,9 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  background-color: inherit;
   align-items: center;
-  padding: 6rem;
-  min-height: 100vh;
+  padding: 2rem;
 }
 
 .description {
@@ -50,7 +50,9 @@
   padding: 1rem 1.2rem;
   border-radius: var(--border-radius);
   background: rgba(var(--card-rgb), 0);
-  border: 1px solid rgba(var(--card-border-rgb), 0);
+  display:flex;
+  flex-direction: column;
+  border: 2px solid blueviolet;
   transition: background 200ms, border 200ms;
 }
 

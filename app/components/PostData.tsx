@@ -1,3 +1,4 @@
+import DeletePostButton from "./DeletePostButton";
 import styles from "./PostData.module.css"
 
 interface IPost {
@@ -14,6 +15,7 @@ export default function PostData({id, title, content, authorName}: IPost) {
               <span>title: {title}</span>
               <span>content: {content}</span>
               <span>author name: {authorName}</span>
+              <DeletePostButton postId={id} />
         </div>
     )
 }
